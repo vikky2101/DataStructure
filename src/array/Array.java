@@ -14,11 +14,11 @@ public class Array {
 		sumAfterNIteration(temp, temp.length, 3);
 		System.out.println();
 
-		System.out.println("Secondmax : " + secondMax(arr, arr.length));
+		System.out.println("Second max : " + secondMax(arr, arr.length));
 		int temp1[] = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
 
 		int key = 6;
-		System.out.println("Rotatd element at index : " + search_K_Rotated_Array(temp1, 0, temp1.length, key));
+		System.out.println("Rotated element at index : " + search_K_Rotated_Array(temp1, 0, temp1.length, key));
 
 		int temp2[] = { 3, 5, 4, 2, 6, 5, 6, 6, 5, 4, 8, 3 };
 		int x = 3;
